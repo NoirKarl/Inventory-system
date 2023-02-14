@@ -1,0 +1,77 @@
+## Beta 0.1 ## 13/01/23
+
+- Creación del menú de consola funcional
+- Creación de entidades con sus atributos y plantillas de sus próximos métodos
+
+## Beta 0.2 ## 13/01/23
+
+- Implementación de agregarProducto y mostrarReporte 
+
+## Beta 0.3 ## 14/01/23
+
+- Creación de excepciones para validar el ingreso de datos
+- Implementación de FijarPrecioVenta
+- Implementación de buscarProducto
+- Mejora en las validaciones del menú
+
+## Beta 1.0 ## 14/01/23
+
+- Implementación de Consultar por Stock y Precio
+- Mejora en el módulo de FijarPrecioVenta
+
+## Versión GUI 0.1.0 ## 14/01/23
+
+- Se agregó una ventana con una barra de menús
+- Se implementó la funcionalidad y validaciones a la ventana ingresarArtículo 
+
+## Versión GUI 0.2.0 ## 15/01/23
+
+- Se implementó ventana ConsultarArtículos
+- Se implementó ventana MostrarReporte
+- Se realizo la lógica de la ventana principal para evitar que se ingresen a los menús que requieren al menos 1 producto creado
+- Ahora la ventana principal está deshabilitada de usar cuando se tiene una opción del menú activa 
+
+## Versión GUI 1.0 ## 15/01/23
+
+- Primera versión con Interfaz gráfica utilizable en su totalidad
+- Se implementó Consultar por Precio y Stock
+- Se implementó FijarPrecioVenta
+
+## Versión GUI 2.0 ## 16/01/23
+
+- Se cambió el menú totalmente, ahora es una ventana que cambia su panel derecho
+
+## Version GUI 2.1 ## 16/01/23
+
+- Ahora al Fijar el precio la opción marcada anteriormente se deshabilita
+- Limpieza de código 
+- Cambio de nombres de variables
+- Mensajes de error, alertas y avisos ahora son diferenciados
+
+## Version GUI 2.2 ## 16/01/23
+
+- Más limpieza de código
+- Ahora para establecer cantidad se usa un JSpinner con límite 0 hasta el límite superior de un entero. Logrando así que no se pase del máximo entero
+- Campo de costo ahora tiene el formato 00.00
+- Validaciones para los botones y el campo de costo en caso de que estos no estén llenados ahora se encuentran en un solo catch
+
+## Version GUI 2.2.1 ## 17/01/23
+
+- Ahora no se puede poner valores negativos en el costo
+- Los espacios a la izquierda y derecha de las cadenas de textos son eliminadas al guardar.
+
+## Version GUI 2.3 ## 18/01/23
+
+- Se mejoró el algoritmo de búsqueda, ahora usa una búsqueda binaria.
+- Se muestra los signos de $ en costos y precios cuando se muestran datos en consultas y tablas.
+- Limpieza de código en ConsultarPrecioStock, ahora hay menos código repetido.
+
+## Version GUI 2.3.1 ## 19/01/23
+
+- Validación para que el código solo acepte dígitos
+
+## Version GUI 2.3.2 ## 24/01/23
+
+- Se agregó botón de Salir en el menú de opciones
+
+
